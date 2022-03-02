@@ -306,7 +306,7 @@ ggplot(newdf,
 ```
 From the plot we can see because na.omit() removes all observations with NAs, many of the observations are removed even though they are present in the airquality dataset.   
 
-If we want to avoid losing additional data we can use ggplot to create a plot and just remove the NA values to retain all the available values in the dataset.
+If we want to avoid losing additional data we can use ggplot to create a plot and just ignore the NA values by colouring them grey (or another colour) to retain all the available values in the dataset.
 
 ```{r}
 ggplot(airquality,
@@ -345,5 +345,3 @@ Figures in papers tend to be quite small. This means text must be proportionatel
 ```{r, eval=FALSE}
 ggsave("test2.png", p, width=3, height=3, dpi=600)
 ```
-
-
