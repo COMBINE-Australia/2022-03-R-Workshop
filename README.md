@@ -3,10 +3,10 @@ COMBINE - R Workshop (2022)
 
 Instructors:
 - Akriti
-- Carissa
-- Gaby
 - Mik
-- Yue
+- Alex
+- Lachlan
+- Raquel
 
 **Welcome to the COMBINE 2022 R Workshop.**  
 This workshop will go through how to get started using the R Language for biology. 
